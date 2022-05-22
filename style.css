@@ -21,6 +21,18 @@ h1 {
     padding-left: 3%;
 }
 
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.draw {
+    color: yellow;
+}
+
 @media screen and (max-width: 767px) {
     .gameBtn {
         max-width: 300px;
