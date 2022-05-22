@@ -1,0 +1,32 @@
+body {
+    background-color: #2B2E4A;
+    color: #2F5D62;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.gameBtn {
+    max-width: 300px;
+    margin: 2rem auto;
+}
+
+.resultContainer {
+    margin: 1rem auto;
+    display: block;
+    max-width: 350px;
+    text-align: start;
+    padding-left: 3%;
+}
+
+@media screen and (max-width: 767px) {
+    .gameBtn {
+        max-width: 300px;
+        margin: 1rem auto;
+    }
+    .resultContainer {
+        padding-left: 5%;
+    }
+}
